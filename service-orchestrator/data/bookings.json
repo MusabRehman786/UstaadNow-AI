@@ -1,0 +1,212 @@
+[
+  {
+    "booking_id": "BK-343403",
+    "provider_id": "p001",
+    "provider_name": "Ali AC Services",
+    "provider_phone": "+92 300 1234567",
+    "service_type": "AC Technician",
+    "location": "G-13",
+    "slot_time": "Tomorrow, 10:00 AM",
+    "status": "CONFIRMED",
+    "confirmation_message": "Your booking with Ali AC Services is confirmed for tomorrow at 10:00 AM in G-13. Provider contact: +92 300 1234567",
+    "created_at": "2026-05-16T23:32:46.395038",
+    "agent_logs_snapshot": [
+      {
+        "agent": "intent_agent",
+        "timestamp": "2026-05-16T23:32:43.855640",
+        "input_summary": "Raw: Mujhe kal subah G-13 mein AC technician chahiye",
+        "output_summary": "service=AC Technician, location=G-13, time=kal subah, lang=urdu",
+        "status": "success"
+      },
+      {
+        "agent": "discovery_agent",
+        "timestamp": "2026-05-16T23:32:43.896833",
+        "input_summary": "service=AC Technician, location=G-13",
+        "output_summary": "Found 4 providers via mock DB",
+        "status": "success"
+      },
+      {
+        "agent": "matching_agent",
+        "timestamp": "2026-05-16T23:32:46.394038",
+        "input_summary": "Ranking 4 providers",
+        "output_summary": "Selected: Ali AC Services (score=0.98, dist=0.08km)",
+        "status": "success"
+      }
+    ]
+  },
+  {
+    "booking_id": "BK-189397",
+    "provider_id": "p008",
+    "provider_name": "Bilal Water Solutions",
+    "provider_phone": "+92 307 8901234",
+    "service_type": "Plumber",
+    "location": "F-10",
+    "slot_time": "Tomorrow, 2:00 PM",
+    "status": "CONFIRMED",
+    "confirmation_message": "Your booking with Bilal Water Solutions is confirmed for tomorrow at 2:00 PM in F-10. Provider contact: +92 307 8901234",
+    "created_at": "2026-05-16T23:33:07.607433",
+    "agent_logs_snapshot": [
+      {
+        "agent": "intent_agent",
+        "timestamp": "2026-05-16T23:33:05.570581",
+        "input_summary": "Raw: I need a plumber in F-10 today afternoon",
+        "output_summary": "service=Plumber, location=F-10, time=today afternoon, lang=english",
+        "status": "success"
+      },
+      {
+        "agent": "discovery_agent",
+        "timestamp": "2026-05-16T23:33:05.593029",
+        "input_summary": "service=Plumber, location=F-10",
+        "output_summary": "Found 4 providers via mock DB",
+        "status": "success"
+      },
+      {
+        "agent": "matching_agent",
+        "timestamp": "2026-05-16T23:33:07.605447",
+        "input_summary": "Ranking 4 providers",
+        "output_summary": "Selected: Bilal Water Solutions (score=0.91, dist=2.13km)",
+        "status": "success"
+      }
+    ]
+  },
+  {
+    "booking_id": "BK-643261",
+    "provider_id": "p009",
+    "provider_name": "Zafar Electric Works",
+    "provider_phone": "+92 308 9012345",
+    "service_type": "Electrician",
+    "location": "Bahria Town",
+    "slot_time": "Tomorrow, 10:00 AM",
+    "status": "CONFIRMED",
+    "confirmation_message": "Your booking with Zafar Electric Works is confirmed for tomorrow at 10:00 AM in Bahria Town. Provider contact: +92 308 9012345",
+    "created_at": "2026-05-16T23:33:18.064083",
+    "agent_logs_snapshot": [
+      {
+        "agent": "intent_agent",
+        "timestamp": "2026-05-16T23:33:16.076808",
+        "input_summary": "Raw: Electrician chahiye Bahria Town mein",
+        "output_summary": "service=Electrician, location=Bahria Town, time=None, lang=roman_urdu",
+        "status": "success"
+      },
+      {
+        "agent": "discovery_agent",
+        "timestamp": "2026-05-16T23:33:16.111227",
+        "input_summary": "service=Electrician, location=Bahria Town",
+        "output_summary": "Found 4 providers via mock DB",
+        "status": "success"
+      },
+      {
+        "agent": "matching_agent",
+        "timestamp": "2026-05-16T23:33:18.062089",
+        "input_summary": "Ranking 4 providers",
+        "output_summary": "Selected: Zafar Electric Works (score=0.58, dist=23.11km)",
+        "status": "success"
+      }
+    ]
+  },
+  {
+    "booking_id": "BK-863163",
+    "provider_id": "p001",
+    "provider_name": "Ali AC Services",
+    "provider_phone": "+92 300 1234567",
+    "service_type": "AC Technician",
+    "location": "G-13",
+    "slot_time": "Tomorrow, 10:00 AM",
+    "status": "CONFIRMED",
+    "confirmation_message": "Your booking with Ali AC Services is confirmed for tomorrow at 10:00 AM in G-13. Provider contact: +92 300 1234567",
+    "created_at": "2026-05-16T23:45:02.947570",
+    "agent_logs_snapshot": [
+      {
+        "agent": "intent_agent",
+        "timestamp": "2026-05-16T23:45:01.021133",
+        "input_summary": "Raw: Mujhe kal subah G-13 mein AC technician chahiye",
+        "output_summary": "service=AC Technician, location=G-13, time=kal subah, lang=urdu",
+        "status": "success"
+      },
+      {
+        "agent": "discovery_agent",
+        "timestamp": "2026-05-16T23:45:01.054351",
+        "input_summary": "service=AC Technician, location=G-13",
+        "output_summary": "Found 4 providers via mock DB",
+        "status": "success"
+      },
+      {
+        "agent": "matching_agent",
+        "timestamp": "2026-05-16T23:45:02.945579",
+        "input_summary": "Ranking 4 providers",
+        "output_summary": "Selected: Ali AC Services (score=0.98, dist=0.08km)",
+        "status": "success"
+      }
+    ]
+  },
+  {
+    "booking_id": "BK-151829",
+    "provider_id": "ChIJA9rM_Ge93zgRl4ZqYzoy_Lc",
+    "provider_name": "Vertex Cool & Electric",
+    "provider_phone": "0315 6225044",
+    "service_type": "AC Technician",
+    "location": "G-13",
+    "slot_time": "Tomorrow, 10:00 AM",
+    "status": "CONFIRMED",
+    "confirmation_message": "Your booking with Vertex Cool & Electric is confirmed for tomorrow at 10:00 AM in G-13. Provider contact: 0315 6225044",
+    "created_at": "2026-05-16T23:56:53.515469",
+    "agent_logs_snapshot": [
+      {
+        "agent": "intent_agent",
+        "timestamp": "2026-05-16T23:56:49.983881",
+        "input_summary": "Raw: Mujhe kal subah G-13 mein AC technician chahiye",
+        "output_summary": "service=AC Technician, location=G-13, time=kal subah, lang=urdu",
+        "status": "success"
+      },
+      {
+        "agent": "discovery_agent",
+        "timestamp": "2026-05-16T23:56:51.425066",
+        "input_summary": "service=AC Technician, location=G-13",
+        "output_summary": "Found 10 providers via Google Maps",
+        "status": "success"
+      },
+      {
+        "agent": "matching_agent",
+        "timestamp": "2026-05-16T23:56:53.514469",
+        "input_summary": "Ranking 10 providers",
+        "output_summary": "Selected: Vertex Cool & Electric (score=0.94, dist=1.38km)",
+        "status": "success"
+      }
+    ]
+  },
+  {
+    "booking_id": "BK-924853",
+    "provider_id": "ChIJA9rM_Ge93zgRl4ZqYzoy_Lc",
+    "provider_name": "Vertex Cool & Electric",
+    "provider_phone": "0315 6225044",
+    "service_type": "AC Technician",
+    "location": "G-13",
+    "slot_time": "Tomorrow, 10:00 AM",
+    "status": "CONFIRMED",
+    "confirmation_message": "Your booking with Vertex Cool & Electric is confirmed for tomorrow at 10:00 AM in G-13. Provider contact: 0315 6225044",
+    "created_at": "2026-05-17T00:11:02.881026",
+    "agent_logs_snapshot": [
+      {
+        "agent": "intent_agent",
+        "timestamp": "2026-05-17T00:11:00.046890",
+        "input_summary": "Raw: Mujhe kal subah G-13 mein AC technician chahiye",
+        "output_summary": "service=AC Technician, location=G-13, time=kal subah, lang=urdu",
+        "status": "success"
+      },
+      {
+        "agent": "discovery_agent",
+        "timestamp": "2026-05-17T00:11:00.849584",
+        "input_summary": "service=AC Technician, location=G-13",
+        "output_summary": "Found 10 providers via Google Maps",
+        "status": "success"
+      },
+      {
+        "agent": "matching_agent",
+        "timestamp": "2026-05-17T00:11:02.880029",
+        "input_summary": "Ranking 10 providers",
+        "output_summary": "Selected: Vertex Cool & Electric (score=0.94, dist=1.38km)",
+        "status": "success"
+      }
+    ]
+  }
+]
