@@ -8,6 +8,8 @@ class ServiceRequest(BaseModel):
     location: Optional[str] = None
     time_preference: Optional[str] = None
     language_detected: Optional[str] = None
+    selected_provider: Optional[dict] = None    # ✅ ADD THIS
+    is_booking_confirmed: bool = False           # ✅ ADD THIS
 
 
 class Provider(BaseModel):
@@ -48,6 +50,7 @@ class AgentState(TypedDict):
     providers_found: list
     ranked_providers: list
     selected_provider: Optional[dict]
+    is_booking_confirmed: bool
     booking: Optional[dict]
     followup: Optional[dict]
     agent_logs: list

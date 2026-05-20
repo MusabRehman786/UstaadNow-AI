@@ -2,6 +2,8 @@ import os
 import json
 import requests
 from dotenv import load_dotenv
+from tools.mock_db import get_price_estimate   # add this import
+
 
 load_dotenv()
 
@@ -46,6 +48,7 @@ def search_nearby_providers(service_type: str, lat: float, lng: float) -> list:
     places = response.json().get("places", [])
     providers = []
     for p in places:
+        rating = p.get("rating", 4.0)
         providers.append({
             "id": p.get("id", ""),
             "name": p.get("displayName", {}).get("text", "Unknown"),
@@ -57,5 +60,6 @@ def search_nearby_providers(service_type: str, lat: float, lng: float) -> list:
             "reviews_count": p.get("userRatingCount", 0),
             "available": True,
             "phone": p.get("nationalPhoneNumber", "N/A"),
+            "pricing":get_price_estimate(service_type, rating),
         })
     return providers

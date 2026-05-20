@@ -208,5 +208,44 @@
         "status": "success"
       }
     ]
+  },
+  {
+    "booking_id": "BK-660990",
+    "provider_id": "ChIJi8S5POjr3zgRgq1wXDEbnww",
+    "provider_name": "The Technicist",
+    "provider_phone": "0311 6835026",
+    "service_type": "AC Technician",
+    "location": "Ghauri Town",
+    "slot_time": "Tomorrow, 10:00 AM",
+    "status": "CONFIRMED",
+    "confirmation_message": "Your booking with The Technicist is confirmed for tomorrow at 10:00 AM in Ghauri Town. Provider contact: 0311 6835026",
+    "created_at": "2026-05-19T11:02:10.322434",
+    "agent_logs_snapshot": []
+  },
+  {
+    "booking_id": "BK-506491",
+    "provider_id": "ChIJk5sXsKO93zgRBmkOqfyHOIo",
+    "provider_name": "Cool Line HVAC Islamabad",
+    "provider_phone": "0300 4265500",
+    "service_type": "AC Technician",
+    "location": "48, F-11/3 F 11/3 F-11, Islamabad, 44320, Pakistan",
+    "slot_time": "Tomorrow, 10:00 AM",
+    "status": "CONFIRMED",
+    "confirmation_message": "Your booking with Cool Line HVAC Islamabad is confirmed for tomorrow at 10:00 AM in 48, F-11/3 F 11/3 F-11, Islamabad, 44320, Pakistan. Provider contact: 0300 4265500",
+    "created_at": "2026-05-19T11:20:23.609228",
+    "agent_logs_snapshot": []
+  },
+  {
+    "booking_id": "BK-780069",
+    "provider_id": "ChIJx7KGlduX3zgRSQWgx2pQ8rM",
+    "provider_name": "Mehran Experts",
+    "provider_phone": "0300 0888121",
+    "service_type": "AC Technician",
+    "location": "Office 04, Street 01 St 1, G-12, Islamabad, 44000, Pakistan",
+    "slot_time": "Tomorrow, 10:00 AM",
+    "status": "CONFIRMED",
+    "confirmation_message": "Your booking with Mehran Experts is confirmed for tomorrow at 10:00 AM in Office 04, Street 01 St 1, G-12, Islamabad, 44000, Pakistan. Provider contact: 0300 0888121",
+    "created_at": "2026-05-19T11:28:38.858580",
+    "agent_logs_snapshot": []
   }
 ]

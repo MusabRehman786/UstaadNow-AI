@@ -1,0 +1,12 @@
+python-dotenv
+langchain-openai
+langchain-community
+langchain-google-genai
+langchain-core      
+fastapi
+uvicorn[standard]   
+faster-whisper
+pydantic
+httpx
+typing-extensions
+python-multipart
