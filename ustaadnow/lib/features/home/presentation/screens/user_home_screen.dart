@@ -112,7 +112,7 @@ class UserHomeScreen extends ConsumerWidget {
                 ),
                 const SizedBox(height: 10),
                 const Text(
-                  'Your City, You Ustaad, Book Now',
+                  'Your City, Your Ustaad, Book Now',
                   style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w700, height: 1.2),
                 ),
                 const SizedBox(height: 6),

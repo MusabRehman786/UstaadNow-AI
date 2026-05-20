@@ -480,6 +480,8 @@ class _ProviderAccordionCard extends StatelessWidget {
     final reasoning = provider['reasoning']?.toString() ?? '';
     final isSelected = provider['is_selected'] == true;
     final available = provider['available'] == true;
+    final pricing = provider['pricing'] as Map<String, dynamic>?;
+    final pricingDisplay = pricing?['display']?.toString() ?? '';
 
     final cardBorderColor = isSelected
         ? AppColors.primary
@@ -639,7 +641,7 @@ class _ProviderAccordionCard extends StatelessWidget {
                 : CrossFadeState.showFirst,
             firstChild: const SizedBox.shrink(),
             secondChild: _buildExpandedBody(context, name, phone, location,
-                distanceKm, score, reasoning, available),
+                distanceKm, score, reasoning, available, pricingDisplay),
           ),
         ],
       ),
@@ -655,6 +657,7 @@ class _ProviderAccordionCard extends StatelessWidget {
     num score,
     String reasoning,
     bool available,
+    String pricingDisplay,
   ) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -695,6 +698,11 @@ class _ProviderAccordionCard extends StatelessWidget {
                   available ? 'Available Now' : 'Not Available',
                   isDark: isDark,
                   valueColor: available ? AppColors.success : Colors.red),
+              if (pricingDisplay.isNotEmpty) ...[
+                const SizedBox(height: 6),
+                _detailRow(Icons.payments_rounded, 'Pricing', pricingDisplay,
+                    isDark: isDark, valueColor: AppColors.primary),
+              ],
               if (reasoning.isNotEmpty) ...[
                 const SizedBox(height: 8),
                 Container(

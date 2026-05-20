@@ -127,6 +127,7 @@ class ChatNotifier extends StateNotifier<List<ChatMessageModel>> {
                   'available': item['available'] ?? true,
                   'reasoning': isSelected ? selectedReasoning : '',
                   'is_selected': isSelected,
+                  'pricing': item['pricing'],
                 });
               }
             }
@@ -145,6 +146,7 @@ class ChatNotifier extends StateNotifier<List<ChatMessageModel>> {
               'available': selectedProvider['available'] ?? true,
               'reasoning': selectedProvider['reasoning'] ?? '',
               'is_selected': true,
+              'pricing': selectedProvider['pricing'],
             });
           }
         }
